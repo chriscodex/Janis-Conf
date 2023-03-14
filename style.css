@@ -1,0 +1,107 @@
+/* @media screen and (min-width: 769px) {
+  #headerNav {
+    height: 52px;
+  }
+} */
+
+#demo {
+  background-color: black;
+  color: #f8f9fa;
+  text-align: center;
+}
+
+#headerNav {
+  margin-top: 30px;
+}
+
+#headerNav img {
+  width: 150px;
+}
+
+#navTitulo {
+  font-family: 'Roboto', sans-serif;
+  color: #3496fa;
+}
+
+.btn-compTicket {
+  background-color: #3496fa;
+  color: black !important;
+}
+
+.btn-compTicket:hover {
+  background-color: #0f4374;
+  color: white !important;
+}
+
+.btn-modalComp {
+  background-color: #0f4374 !important;
+  color: black !important;
+}
+
+.btn-modalComp:hover {
+  background-color: #5b7726 !important;
+  color: white !important;
+}
+
+.text-resaltado {
+  color: #0f4374 !important;
+}
+
+#main {
+  margin-top: 100px;
+}
+
+#main .carousel-inner img {
+  max-height: 70vh;
+  filter: grayscale(50%);
+  /*object-fit: cover;*/
+}
+
+#carouselFade {
+  position: relative;
+}
+
+#carouselFade .overlay {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+#carouselFade .overlay .container,
+#carouselFade .overlay .row {
+  height: 100%;
+}
+
+#carouselFade .overlay .parrafo {
+  text-align: right;
+}
+
+/* #speakers #card1 {
+  padding-bottom: 90px;
+}
+
+#speakers #card2 {
+  padding-bottom: 70px;
+} */
+
+#place-time {
+  background-color: #212529;
+}
+
+#place-time .secCol {
+  color: white;
+}
+
+#footer{
+    background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5472);
+}
+
+#footer a {
+  color: white;
+  text-decoration: none;
+}
